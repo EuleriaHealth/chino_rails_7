@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    chino_ruby (3.0.0)
+      activemodel (~> 6.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (6.1.6)
+      activesupport (= 6.1.6)
+    activesupport (6.1.6)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    concurrent-ruby (1.1.10)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.15.0)
+    power_assert (2.0.1)
+    test-unit (3.5.3)
+      power_assert
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    zeitwerk (2.5.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chino_ruby!
+  test-unit (~> 3.1)
+
+BUNDLED WITH
+   2.1.4
